@@ -1,0 +1,93 @@
+--- System Set Up ---
+System ID: 1
+
+Adding Warehouse 1
+
+Adding Warehouse 2
+
+All warehouses in the system:
+Warehouse ID: 0, Location: New York
+Warehouse ID: 1, Location: Los Angeles
+
+Adding products to Warehouse 1:
+Product 1 added: true
+Product 2 added: true
+Product 3 added: true
+
+--- Wishlist Tests ---
+Adding products to Client 1's wishlist:
+Product added to wishlist.
+Product added to wishlist.
+Product 1 added to wishlist: true
+Product 3 added to wishlist: true
+
+Client 1's Wishlist:
+Wishlist for client ID: 1
+Product ID: 1, Name: MacBook Air, Description: Apple notebook, Price: $1199.99, Stock Quantity: 2
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 2
+
+Adding a product to Client 2's wishlist:
+Product added to wishlist.
+true
+
+Client 2's Wishlist:
+Wishlist for client ID: 2
+Product ID: 2, Name: iPhone, Description: Apple Smartphone, Price: $899.99, Stock Quantity: 2
+
+Removing product with ID 1 (MacBook Air) from Client 1's wishlist...
+Product removed from wishlist.
+Product removed from wishlist: true
+
+Client 1's Wishlist after removal:
+Wishlist for client ID: 1
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 2
+
+--- Product Tests ---
+
+Modifying Product 1 (MacBook Air) in Warehouse 1
+Product before change: Product ID: 1, Name: MacBook Air, Description: Apple notebook, Price: $1199.99, Stock Quantity: 10
+Updated Product 1 details:
+Product ID: 1, Name: MacBook Air, Description: Apple notebook - Updated, Price: $1099.99, Stock Quantity: 10
+
+Products in Warehouse 1 after modifications:
+Product ID: 1, Name: MacBook Air, Description: Apple notebook - Updated, Price: $1099.99, Stock Quantity: 10
+Product ID: 2, Name: iPhone, Description: Apple Smartphone, Price: $899.99, Stock Quantity: 20
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 30
+
+--- Client Tests ---
+
+client info before change: ClientID: 1, Name: Alice Smith, Address: 123 Maple St, Contact: 123-456-7890
+
+Updating Client 1's information
+Updated Client 1 details:
+ClientID: 1, Name: Alice Johnson, Address: 789 Pine St, Contact: 555-111-2222
+
+All clients in the system after modifications:
+ClientID: 1, Name: Alice Johnson, Address: 789 Pine St, Contact: 555-111-2222
+ClientID: 2, Name: Bob Johnson, Address: 456 Oak St, Contact: 987-654-3210
+
+--- Warehouse Tests ---
+
+Products in Warehouse 1:
+Product ID: 1, Name: MacBook Air, Description: Apple notebook - Updated, Price: $1099.99, Stock Quantity: 10
+Product ID: 2, Name: iPhone, Description: Apple Smartphone, Price: $899.99, Stock Quantity: 20
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 30
+
+Removing product with ID 2 (iPhone) from Warehouse 1
+Product removed: true
+
+Products in Warehouse 1 after removal:
+Product ID: 1, Name: MacBook Air, Description: Apple notebook - Updated, Price: $1099.99, Stock Quantity: 10
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 30
+
+Removing client with ID 1 (Alice Smith)
+Client removed: true
+
+All clients in the system:
+ClientID: 2, Name: Bob Johnson, Address: 456 Oak St, Contact: 987-654-3210
+
+Removing Warehouse 2
+Warehouse removed: true
+
+All warehouses in the system:
+Warehouse ID: 0, Location: New York

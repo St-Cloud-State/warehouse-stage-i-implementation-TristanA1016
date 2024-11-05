@@ -1,0 +1,46 @@
+Initial Warehouse Details:
+Location: New York
+Address: 1234 Broadway St
+Warehouse ID: 0
+Updated Warehouse ID: 101
+
+Testing setters
+Updated Warehouse Details:
+Location: Los Angeles
+Address: 5678 Sunset Blvd
+Warehouse ID: 101
+
+All products in the warehouse:
+Product ID: 1, Name: MacBook Air, Description: Apple notebook, Price: $1199.99, Stock Quantity: 10
+
+Product ID: 2, Name: iPhone, Description: Apple Smartphone, Price: $899.99, Stock Quantity: 20
+
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 30
+
+
+Iterating over the product list:
+Product ID: 1, Name: MacBook Air, Description: Apple notebook, Price: $1199.99, Stock Quantity: 10
+Product ID: 2, Name: iPhone, Description: Apple Smartphone, Price: $899.99, Stock Quantity: 20
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 30
+
+Updating stock for MacBook Air
+Product ID: 1, Name: MacBook Air, Description: Apple notebook, Price: $1199.99, Stock Quantity: 15
+
+Product ID: 2, Name: iPhone, Description: Apple Smartphone, Price: $899.99, Stock Quantity: 20
+
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 30
+
+
+Removing iPhone from the warehouse
+Product removed: true
+
+Products after removal:
+Product ID: 1, Name: MacBook Air, Description: Apple notebook, Price: $1199.99, Stock Quantity: 15
+
+Product ID: 3, Name: Apple Watch, Description: Smartwatch, Price: $399.99, Stock Quantity: 30
+
+
+Warehouse Details after changes:
+Location: Los Angeles
+Address: 5678 Sunset Blvd
+Warehouse ID: 101
